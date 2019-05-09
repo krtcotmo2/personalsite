@@ -1,0 +1,65 @@
+.App{
+  justify-content: flex-start;
+}
+.mainWrapper{
+  border:1px solid #5e8161;
+  min-height: 400px !important; 
+  padding:0px !important;
+  display: flex;
+  align-items: stretch;
+  margin:72px auto;
+}
+.leftSide{
+  background: #5e8161;
+}
+.mintGreen{
+  background: #b7d9b9;
+}
+.leftSide a:link, .leftSide a:visited, .leftSide a:hover{
+  color:white;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  .mainWrapper{
+    display: block;
+    background: yellow;
+  }
+      .mainWrapper > div{
+        float:none !important;
+      }
+}
+
+@media only screen and (min-width: 601px){
+  .mainWrapper{
+    width:500px;
+  }
+  
+  .leftSide{
+    width:125px;
+  }
+  .mintGreen{
+    width:35px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .mainWrapper{
+    width:700px;
+  }
+  .leftSide{
+    width:225px;
+  }
+  .mintGreen{
+    width:75px;
+  }
+}
+
+@media only screen and (min-width: 993px){
+  .mainWrapper{
+    width:850px;
+  }
+}
+
