@@ -2,8 +2,8 @@ import React, { PureComponent } from "react";
 import {
   BrowserRouter as Router,
   Route,
-  Switch
-  //Link,
+  Switch,
+  Link
   //Redirect
 } from "react-router-dom";
 import MyStory from "./Pages/MyStory/MyStory";
@@ -45,7 +45,12 @@ class App extends PureComponent {
                 </a>
               </p>
             </div>
-            <div className="mintGreen col">2</div>
+            <div className="mintGreen col">
+              <Link to="/"><img alt="My Story" src="./images/mongoIcon.png"/></Link>
+              <Link to="/Expertise"><img alt="Expertise" src="./images/expressIcon.png"/></Link>
+              <Link to="/Representation"><img alt="Representation" src="./images/reactIcon.png"/></Link>
+              <Link to="/Network"><img alt="Network" src="./images/nodeIcon.png"/></Link>
+            </div>
             <Switch>
               <Route exact path="/" component={MyStory} />
               <Route exact path="/Expertise" component={Expertise} />
