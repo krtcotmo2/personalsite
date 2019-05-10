@@ -3,7 +3,7 @@
 }
 .mainWrapper{
   border:1px solid #5e8161;
-  min-height: 400px !important; 
+  min-height: 500px !important; 
   padding:0px !important;
   display: flex;
   align-items: stretch;
@@ -17,11 +17,11 @@
   text-align: center;
   border-right: 2px solid #d1a248;
   border-left:2px solid #d1a248;
-  padding: 24px 0px !important;
+  padding: 64px 0px !important;
   flex-direction: column;
 }
 .mintGreen a{
-  margin-bottom:15px;
+  margin-bottom:27px;
   display: inline-block;
 }
 .mintGreen a:last-child{
@@ -36,8 +36,53 @@
   cursor: pointer;
 }
 
-
-
+.mainContent{
+  padding:24px 42px 24px 36px !important;
+  overflow: hidden;
+  float: none;
+  position: relative;
+  display: block;
+}
+.mainContent .tagLine{
+  position: absolute;
+  font-size:320px;
+  font-weight: bold;
+  color:#5e8161;
+  opacity: 0.1;
+  overflow:hidden;
+  width: max-content;
+  bottom:-120px;
+  left:-50px;
+  letter-spacing: -15px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+.mainContent h4{
+  margin-top:0px;
+}
+.mainContent p{
+  margin: 0.5em 0;
+  font-size: 16px;
+}
+.mainContent h5{
+  margin-bottom:0px;
+}
+.mernQuad{
+  position: absolute;
+  right: 24px;
+  top:calc(50% - 110px);
+  z-index: 2;
+}
+.element{
+  float: right; 
+  shape-outside:  polygon(130px 105px, 265px 245px, 130px 350px, 10px 230px); 
+  width: 240px;
+  height: 100%;
+}
 @media only screen and (max-width: 600px){
   .mainWrapper{
     display: block;
@@ -61,11 +106,14 @@
   .mintGreen{
     width:49px;
   }
+  .mernQuad{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px){
   .mainWrapper{
-    width:700px;
+    width:730px;
   }
   .leftSide{
     width:225px;
@@ -73,11 +121,15 @@
   .mainContent{
     width:calc(100% - 275px);
   }
+  
 }
 
 @media only screen and (min-width: 993px){
   .mainWrapper{
-    width:850px;
+    width:950px;
+  }
+  .mernQuad{
+    display: block;
   }
 }
 
