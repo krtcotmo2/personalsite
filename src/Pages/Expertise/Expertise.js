@@ -14,7 +14,7 @@ export default function Expertise(){
     //       <div className="mintGreen col">
     //         2
     //       </div>
-          <div className="bar3 col">
+          <div className="mainContent col">
            Expertise
           </div>          
        // </section>
