@@ -25,7 +25,6 @@ class App extends PureComponent {
               <h4>Kurt Cooney</h4>
               <p>
                 full stack
-                <br />
                 developer/
                 <br />
                 student of life
