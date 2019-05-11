@@ -22,6 +22,67 @@
 .App-link {
   color: #61dafb;
 }
+.nav{
+  width:49px;
+  padding:0px!important;
+  position: relative;
+}
+.sideholder.rt{
+  left:-38px;
+  position: absolute;
+  width:40px;
+  height: 100%;
+  overflow:hidden;
+  z-index: 10;
+}
+.sideholder.lt{
+  left:47px;
+  position: absolute;
+  width:40px;
+  height: 100%;
+  z-index: 10;
+  overflow:hidden;
+}
+.iconMarker.top1{
+  top:75px;
+}
+.iconMarker.top2{
+  top:175px;
+}
+.iconMarker.top3{
+  top:275px;
+}
+.iconMarker.top4{
+  top:375px;
+}
+.rt .iconMarker{
+  background: #b7d9b9;
+  width: 40px;
+  height: 40px;
+  border:2px solid #d1a248;
+  transform: rotate(45deg);
+  position: absolute;
+  left:30px;
+  transition: 1s;
+}
+
+.lt .iconMarker{
+  background: #b7d9b9;
+  width: 40px;
+  height: 40px;
+  border:2px solid #d1a248;
+  transform: rotate(45deg);
+  position: absolute;
+  left:-30px;
+  transition: 1s;
+}
+
+.lt .iconMarker.hidden{
+  left:-50px;
+}
+.rt .iconMarker.hidden{
+  left:50px;
+}
 
 @keyframes App-logo-spin {
   from {

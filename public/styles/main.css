@@ -30,6 +30,7 @@
 .mintGreen img{
   cursor:pointer;
   width:45px;
+  position: abolute;
 }
 .leftSide a:link, .leftSide a:visited, .leftSide a:hover{
   color:white;
@@ -59,7 +60,8 @@
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none
+  user-select: none;
+  z-index: -1;
 }
 .mainContent h4{
   margin-top:0px;
@@ -91,6 +93,7 @@
       .mainWrapper > div{
         float:none !important;
       }
+  
 }
 
 @media only screen and (min-width: 601px){
@@ -120,8 +123,7 @@
   }
   .mainContent{
     width:calc(100% - 275px);
-  }
-  
+  } 
 }
 
 @media only screen and (min-width: 993px){
@@ -130,6 +132,12 @@
   }
   .mernQuad{
     display: block;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .element{
+    display: none;
   }
 }
 
