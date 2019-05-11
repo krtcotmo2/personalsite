@@ -3,7 +3,7 @@ import React from "react";
 export default function Expertise(){
   return (
     <div className="mainContent col">
-      <div class="element"></div>
+      <div className="element"></div>
       <h4>Expertise</h4>
       <h5><strong>Old Hat:</strong></h5>
       <p><strong>Front End:</strong> Years of extensive work in HTML, CSS, Javascript, jQuery, D3, AJAX, Dashboards and more</p>
