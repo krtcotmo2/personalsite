@@ -12,7 +12,7 @@ export default function Expertise(){
       <h5><strong>New Leaf:</strong></h5>
       <p><strong>Front End:</strong> ES6, HandleBars, React, Bootstap, Materialize for quicker layout and condensed code</p>
       <p><strong>Database:</strong> MySQL and Sequelize, MongoDB and Mongoose, Linq and dbml for quicker, faster model creation and queries</p>
-      <p><strong>Backend:</strong> Node js, Express, NPM for extensive expandability</p>
+      <p><strong>Backend:</strong> Node.js, Express, NPM for extensive expandability</p>
       <img className="mernQuad" alt="MERN Stack" src="./images/mernQuads.png"/>
       <div className="tagLine">Express</div>
     </div>
