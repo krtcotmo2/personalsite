@@ -7,6 +7,9 @@
   top:2px;
   margin-right: 3px;
 }
+.App .leftSide i {
+  z-index:1;
+}
 
 .App-header {
   background-color: #282c34;
