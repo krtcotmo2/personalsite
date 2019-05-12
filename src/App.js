@@ -43,13 +43,13 @@ class App extends Component {
         case "/":
         this.setIcon(1)
           break;
-          case "/Expertise":
+          case "/expertise":
           this.setIcon(2)
           break;
-          case "/Representation":
+          case "/representation":
           this.setIcon(3)
           break;
-          case "/Network":
+          case "/retwork":
           this.setIcon(4)
           break;
           default:break;
