@@ -1,0 +1,29 @@
+.App i{
+  z-index: -1;
+}
+
+#contactMe{padding:0px;}
+#contactMe button{background:#5e8161}
+row{
+  margin-left:0px;
+  margin-right:0px;
+}
+        form .input-field .prefix.active, form .input-field label.active{
+          color:#5e8161 !important;
+        }
+        input:not([type]),input[type=text]:not(.browser-default),input[type=password]:not(.browser-default),input[type=email]:not(.browser-default),input[type=url]:not(.browser-default),input[type=time]:not(.browser-default),input[type=date]:not(.browser-default),input[type=datetime]:not(.browser-default),input[type=datetime-local]:not(.browser-default),input[type=tel]:not(.browser-default),input[type=number]:not(.browser-default),input[type=search]:not(.browser-default),textarea.materialize-textarea {
+        border-bottom: solid 1px #5e8161 !important;
+        }
+
+.modal{
+  border:1px solid #5e8161;
+  border-radius: 4px;
+}
+  .modalOpen {
+    display: block;
+    z-index: 1000;
+    max-width:360px
+  }
+  .modal.center-align, .modal.center-align .modal-footer{
+    text-align: center;
+  }
