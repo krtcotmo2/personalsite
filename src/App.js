@@ -9,6 +9,7 @@ import {
 import MyStory from "./Pages/MyStory/MyStory";
 import Expertise from "./Pages/Expertise/Expertise";
 import Representation from "./Pages/Representation/Representation";
+import Commission from "./Pages/Commission/Commission";
 import Network from "./Pages/Network/Network";
 import "./App.css";
 
