@@ -127,7 +127,7 @@ class App extends Component {
                 <Route exact path="/" component={MyStory}/>
                 <Route exact path="/Expertise"  component={Expertise} />
                 <Route exact path="/Representation" component={Representation} />
-                <Route exact path="/Network" component={Network} />
+                <Route exact path="/Network" component={Network} />                
             </Switch>
           </section>
         </div>
