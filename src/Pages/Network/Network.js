@@ -59,19 +59,18 @@ const sendFeedback = (
   emailField.value = "";
   msgField.value = "";
   nameField.value = "";
-  // let emailParams = {
-  //   reply_to: senderEmail,
-  //   message_html: feedback,
-  //   from_name: senderName
-  // };
-  // window.emailjs
-  //   .send("mailgun", templateId, emailParams)
-  //   .then(res => {
-  //     let modal = document.getElementById("modal1");
-  //     modal.className += " modalOpen ";
-  //   })
-  //   // Handle errors here however you like, or use a React error boundary
-  //   .catch(err => console.error("Failed to send feedback. Error: ", err));
+  let emailParams = {
+    reply_to: senderEmail,
+    message_html: feedback,
+    from_name: senderName
+  };
+  window.emailjs
+    .send("mailgun", templateId, emailParams)
+    .then(res => {
+      let modal = document.getElementById("modal1");
+      modal.className += " modalOpen ";
+    })
+    .catch(err => console.error("Failed to send feedback. Error: ", err));
 };
 
 const hideModal= () =>{  
