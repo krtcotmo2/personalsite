@@ -1,42 +1,19 @@
 import React from "react";
 import { Carousel } from "react-materialize";
+import Project from "../../components/Project/Project"
 import "./Representation.css";
 
 export default function Representation() {
   return (
     <div className="mainContent col">
       <h4>Representation</h4>
-      <Carousel options={{ fullWidth: true, indicators: true }} className="center col s7">
-        <div className="">
-          <h2>Inventory Management</h2>
-          <p>This is your first panel</p>
-          <a target='_blank' href="https://count-stockula.herokuapp.com/Scan">Inventory Management</a>
-        </div>
-        <div className="">
-          <h2>Car Maintenace Application</h2>
-          <p>This is your second panel</p>
-          <a target='_blank' href="https://autoproject2.herokuapp.com/">Car Maintenace Application</a>
-        </div>
-        <div className="">
-          <h2>Rect Library with Favorites</h2>
-          <p>This is your second panel</p>
-          <a target='_blank' href="https://react-myreading-library.herokuapp.com/">Rect Library with Favorites</a>
-        </div>
-        <div className="">
-          <h2>NFL Draft Board</h2>
-          <p>This is your second panel</p>
-          <a target='_blank' href="https://nfldraft-krc.herokuapp.com/">NFL Draft Board</a>
-        </div>  
-        <div className="">
-          <h2>Connectwise Commission Report</h2>
-          <p>This is your second panel</p>
-          <a target='_blank' href="https://nfldraft-krc.herokuapp.com/">Connectwise Commission Report</a>
-        </div>  
-        <div className="">
-          <h2>Connectwise Capacity Charts</h2>
-          <p>This is your second panel</p>
-          <a target='_blank' href="https://nfldraft-krc.herokuapp.com/">Connectwise Capacity Charts</a>
-        </div>    
+      <Carousel options={{ fullWidth: true, indicators: true }} className="center col m11 l7">        
+        <Project className="" stack="reactStack.png" tech="Node.js express, MongoDB, React" img="cntStockula.png" title="Inventory Management" link="https://count-stockula.herokuapp.com/Scan"/>
+        <Project className="" stack="hbars.png" tech="Node.js express, MySql, handlebars.js" img="autoMate.png" title="Car Maintenace Application" link="https://autoproject2.herokuapp.com/"/>
+        <Project className="" stack="reactStack.png" tech="Node.js express, MongoDB, React" img="library.png" title="Rect Library with Favorites" link="https://react-myreading-library.herokuapp.com/"/>
+        <Project className="" stack="hbars.png" tech="Node.js express, MySql, handlebars.js" img="nflDraft.png" title="NFL Draft Board" link="https://nfldraft-krc.herokuapp.com/"/>
+        <Project className="" stack="cSharp.png" tech="C#, HTML5, Bootstrap, Sql Server" img="commDashboardTile.png" title="Connectwise Commission Report" link="https://krtcotmo2.herokuapp.com/commissions"/>
+        <Project className="" stack="cSharpJs.png" tech="C#, HTML5, Bootstrap, Sql Server" img="ocdTile.png" title="Connectwise Capacity Charts" link="https://autoproject2.herokuapp.com/"/>
       </Carousel>
       <img className="mernQuad" alt="MERN Stack" src="./images/mernQuads.png" />
       <div className="tagLine">React</div>

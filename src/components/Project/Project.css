@@ -1,0 +1,11 @@
+.carousel-item h6{
+  margin:12px 0px 24px 0px;
+}
+.carousel-item img{
+  width:200px !important;
+  height:200px;
+}
+.carousel-item p img{
+  width:200px !important;
+  height:72px;
+}
