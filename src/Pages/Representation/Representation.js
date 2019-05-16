@@ -15,7 +15,7 @@ export default function Representation() {
         <Project className="" stack="cSharp.png" tech="C#, HTML5, Bootstrap, Sql Server" img="commDashboardTile.png" title="Connectwise Commission Report" link="https://krtcotmo2.github.io/csharpexample/"/>
         <Project className="" stack="cSharpJs.png" tech="C#, HTML5, Bootstrap, Sql Server" img="ocdTile.png" title="Connectwise Capacity Charts" link="https://krtcotmo2.github.io/csharpexample/ocd.html"/>
       </Carousel>
-      <img className="mernQuad" alt="MERN Stack" src="./images/mernQuads.png" />
+      <img className="mernQuad hide-on-med-and-down" alt="MERN Stack" src="./images/mernQuads.png" />
       <div className="tagLine">React</div>
     </div>
   );

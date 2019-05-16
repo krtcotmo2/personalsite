@@ -121,8 +121,13 @@ export default function Network() {
             Sumbit
           </button>
         </div>
+        <div className="show-on-medium-and-down " style={{paddingTop:"32px", display:"none"}}>
+          <div className="col s6 center-align"><a href="https://www.linkedin.com/in/kurtcooney/" target="_blank"><img src="./images/linkedin.png"/></a></div>
+          <div className="col s6 center-align"><a href="https://github.com/krtcotmo2" target="_blank"><img src="./images/gitHub.png"/></a></div>
+        </div>
       </form>
-      <div className="mernQuad">
+     
+      <div className="mernQuad hide-on-med-and-down">
         <div className="row">
           <img alt="MERN Stack" src="./images/mernQuads.png" />
         </div>
@@ -144,6 +149,7 @@ export default function Network() {
             OK
           </button>
         </div>
+       
       </div>
     </div>
   );

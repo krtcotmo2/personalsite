@@ -13,7 +13,7 @@ export default function Expertise(){
       <p><strong>Front End:</strong> ES6, HandleBars, React, Bootstap, Materialize for quicker layout and condensed code</p>
       <p><strong>Database:</strong> MySQL and Sequelize, MongoDB and Mongoose, Linq and dbml for quicker, faster model creation and queries</p>
       <p><strong>Backend:</strong> Node.js, Express, NPM for extensive expandability</p>
-      <img className="mernQuad" alt="MERN Stack" src="./images/mernQuads.png"/>
+      <img className="mernQuad hide-on-med-and-down" alt="MERN Stack" src="./images/mernQuads.png"/>
       <div className="tagLine">Express</div>
     </div>
   );

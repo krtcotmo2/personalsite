@@ -27,3 +27,9 @@ row{
   .modal.center-align, .modal.center-align .modal-footer{
     text-align: center;
   }
+
+  @media only screen and (max-width: 601px){
+    #contactMe{
+      width:100%;
+    }
+  }

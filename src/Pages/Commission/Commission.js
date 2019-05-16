@@ -9,7 +9,7 @@ export default function Commission() {
         <img src="./images/cntStockula.png"/>
         <img src="./images/commDashboardTile.png"/>
       </Carousel>
-      <img className="mernQuad" alt="MERN Stack" src="./images/mernQuads.png" />
+      <img className="mernQuad .hide-on-med-and-down" alt="MERN Stack" src="./images/mernQuads.png" />
       <div className="tagLine">React</div>
     </div>
   );
