@@ -15,7 +15,10 @@ import "./App.css";
 
 const  createHistory = require('history').createBrowserHistory;
  
-
+const triggerInfo = () => {
+  let elems = document.querySelectorAll('.extraData');
+  elems[0].classList.toggle("hidden");
+};
 
 class App extends Component {
  
@@ -75,13 +78,17 @@ class App extends Component {
   yourHandler = (previousRoute, nextRoute)=>{
     console.log("SSSS", previousRoute)
   }
+
+
   render() {
     return (
       <Router history={this.history}>
         <div className="App row">
           <section className="mainWrapper">
             <div className="leftSide col white-text text-left">
+              <a className="menuOption" href="#" onClick={triggerInfo}><i className="material-icons">menu</i></a>
               <h4>Kurt Cooney</h4>
+              <div className="extraData hidden">
               <p>
                 full stack
                 developer/
@@ -102,15 +109,16 @@ class App extends Component {
                   678.557.3075
                 </a>
               </p>
+              </div>
             </div>
             <div className="nav col">
-              <div className="sideholder lt">
+              <div className="sideholder lt hide-on-small-only	">
                 <div className="iconMarker top1"/>
                 <div className="iconMarker top2 hidden"/>
                 <div className="iconMarker top3 hidden"/>
                 <div className="iconMarker top4 hidden"/>
               </div>
-              <div className="sideholder rt">
+              <div className="sideholder rt hide-on-small-only	">
               <div className="iconMarker top1"/>
                 <div className="iconMarker top2 hidden"/>
                 <div className="iconMarker top3 hidden"/>
