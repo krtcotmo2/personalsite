@@ -109,6 +109,20 @@ class App extends Component {
                   678.557.3075
                 </a>
               </p>
+              <p>
+                {" "}
+                <a href="https://www.linkedin.com/in/kurtcooney/">
+                  <img style={{position:'relative', width:'16px', top:'2px'}} src='./images/LI-In-Bug.png'/>{" "}
+                  LinkedIn
+                </a>
+              </p>
+              <p>
+                {" "}
+                <a href="https://github.com/krtcotmo2">
+                  <img style={{position:'relative', width:'16px', top:'2px'}} src="./images/GitHub-Mark-Light-32px.png"/>{" "}
+                  Github
+                </a>
+              </p>
               </div>
             </div>
             <div className="nav col">
