@@ -118,7 +118,7 @@ export default function Network() {
             className="waves-effect waves-light btn"
             onClick={handleSubmit}
           >
-            Sumbit
+            Submit
           </button>
         </div>
         <div className="show-on-medium-and-down " style={{paddingTop:"32px", display:"none"}}>
