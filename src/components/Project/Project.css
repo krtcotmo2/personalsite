@@ -1,5 +1,5 @@
 .carousel-item h6{
-  margin:12px 0px 24px 0px;
+  margin:12px 0px 12px 0px;
 }
 .carousel-item img{
   width:200px !important;
@@ -8,4 +8,16 @@
 .carousel-item p img{
   width:200px !important;
   height:72px;
+}
+.carousel-item p{
+  margin-top:0px;
+}
+.carousel-item button{
+  position: relative; 
+  top:-5px;
+  background: #5d8161;
+}
+.carousel-item button:hover{
+  color:#266883;
+  background: #b7d9b9;
 }

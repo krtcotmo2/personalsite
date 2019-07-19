@@ -81,6 +81,7 @@ const hideModal= () =>{
 export default function Network() {
   return (
     <div className="mainContent col">
+      
       <h4>Networking</h4>
       <form className="col m12 l7" id="contactMe" action="contact">
         <div className="input-field">

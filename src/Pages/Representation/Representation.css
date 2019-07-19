@@ -1,3 +1,6 @@
+h4.repHeader{
+  margin-bottom:0px !important;
+}
 .carousel{
   min-height: 400px !important;
 }
@@ -9,7 +12,7 @@
   width: 12px;
   margin: 12px 8px 6px 8px;
   background: white;
-  border: 1px solid rgb(42, 117, 85) !important;
+  border: 1px solid rgb(72, 138, 109) !important;
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   border-radius: 0px;
@@ -18,4 +21,26 @@
 
 .carousel .indicators .indicator-item.active{
   background-color: rgb(42, 117, 85);
+}
+#detailmodal{
+  max-height: calc(100% - 300px);
+}
+#detailmodal .modal-footer {
+  border-top: 1px solid rgb(72, 138, 109) !important;
+  position: sticky;
+  bottom: 0px;
+}
+#detailmodal{
+  max-width:540px;
+}
+#detailmodal .modal-footer button{
+  background: #5d8161;
+  color:white;
+}
+#detailmodal .modal-footer button:hover{
+  color:#266883;
+  background: #b7d9b9;
+}
+#details{
+  text-align: left;
 }
