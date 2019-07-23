@@ -79,7 +79,7 @@ export default function Representation() {
       <Carousel options={{ fullWidth: true, indicators: true }} className="center col m11 l7">        
         <Project showModal={showModal} stack="reactStack.png" tech="Node.js, express, MongoDB, React" img="cntStockula.png" title="Inventory Management" link="https://count-stockula.herokuapp.com/Scan"/>
         <Project showModal={showModal} stack="hbars.png" tech="Node.js, express, MySql, handlebars.js" img="autoMate.png" title="Car Maintenace Application" link="https://autoproject2.herokuapp.com/"/>
-        <Project showModal={showModal} stack="reactJs.png" tech="React, JavaScript" img="evenSt.png" title="Tip Calculator" link="https://tip-em.herokuapp.com/"/>
+        <Project showModal={showModal} stack="reactJS.png" tech="React, JavaScript" img="evenSt.png" title="Tip Calculator" link="https://tip-em.herokuapp.com/"/>
         <Project showModal={showModal} stack="hbars.png" tech="Node.js, express, MySql, handlebars.js" img="nflDraft.png" title="NFL Draft Board" link="https://nfldraft-krc.herokuapp.com/"/>        
         <Project showModal={showModal} stack="reactStack.png" tech="Node.js, express, MongoDB, React" img="library.png" title="React Library with Favorites" link="https://react-myreading-library.herokuapp.com/"/>
         <Project showModal={showModal} stack="cSharp.png" tech="C#, HTML5, Bootstrap, Sql Server" img="commDashboardTile.png" title="Connectwise Commission Report" link="https://krtcotmo2.github.io/csharpexample/"/>
