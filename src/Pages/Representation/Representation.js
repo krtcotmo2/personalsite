@@ -76,19 +76,7 @@ export default function Representation() {
   return (
     <div className="mainContent col">     
       <h4 className="repHeader">Representation</h4>
-      <Carousel options={{ fullWidth: true, indicators: true }} className="center col m11 l7">        
-        <Project showModal={showModal} stack="reactStack.png" tech="Node.js, express, MongoDB, React" img="cntStockula.png" title="Inventory Management" link="https://count-stockula.herokuapp.com/Scan"/>
-        <Project showModal={showModal} stack="hbars.png" tech="Node.js, express, MySql, handlebars.js" img="autoMate.png" title="Car Maintenace Application" link="https://autoproject2.herokuapp.com/"/>
-        <Project showModal={showModal} stack="reactJS.png" tech="React, JavaScript" img="evenSt.png" title="Tip Calculator" link="https://tip-em.herokuapp.com/"/>
-        <Project showModal={showModal} stack="hbars.png" tech="Node.js, express, MySql, handlebars.js" img="nflDraft.png" title="NFL Draft Board" link="https://nfldraft-krc.herokuapp.com/"/>        
-        <Project showModal={showModal} stack="reactStack.png" tech="Node.js, express, MongoDB, React" img="library.png" title="React Library with Favorites" link="https://react-myreading-library.herokuapp.com/"/>
-        <Project showModal={showModal} stack="cSharp.png" tech="C#, HTML5, Bootstrap, Sql Server" img="commDashboardTile.png" title="Connectwise Commission Report" link="https://krtcotmo2.github.io/csharpexample/"/>
-        <Project showModal={showModal} stack="cSharpJs.png" tech="C#, HTML5, Bootstrap, Sql Server" img="ocdTile.png" title="Connectwise Capacity Charts" link="https://krtcotmo2.github.io/csharpexample/ocd.html"/>
-      </Carousel>
-      <img className="mernQuad hide-on-med-and-down" alt="MERN Stack" src="./images/mernQuads.png" />
-      <div className="tagLine">React</div>
-
-      {/* MODAL WINDOOW */}
+    {/* MODAL WINDOOW */}
       <div id="detailmodal" className="modal center-align">
         <div className="modal-content">   
           <div id="details">    
@@ -102,6 +90,19 @@ export default function Representation() {
         </div>
        
       </div>
+      <Carousel options={{ fullWidth: true, indicators: true }} className="center col m11 l7">        
+        <Project showModal={showModal} stack="reactStack.png" tech="Node.js, express, MongoDB, React" img="cntStockula.png" title="Inventory Management" link="https://count-stockula.herokuapp.com/Scan"/>
+        <Project showModal={showModal} stack="hbars.png" tech="Node.js, express, MySql, handlebars.js" img="autoMate.png" title="Car Maintenace Application" link="https://autoproject2.herokuapp.com/"/>
+        <Project showModal={showModal} stack="reactJS.png" tech="React, JavaScript" img="evenSt.png" title="Tip Calculator" link="https://tip-em.herokuapp.com/"/>
+        <Project showModal={showModal} stack="hbars.png" tech="Node.js, express, MySql, handlebars.js" img="nflDraft.png" title="NFL Draft Board" link="https://nfldraft-krc.herokuapp.com/"/>        
+        <Project showModal={showModal} stack="reactStack.png" tech="Node.js, express, MongoDB, React" img="library.png" title="React Library with Favorites" link="https://react-myreading-library.herokuapp.com/"/>
+        <Project showModal={showModal} stack="cSharp.png" tech="C#, HTML5, Bootstrap, Sql Server" img="commDashboardTile.png" title="Connectwise Commission Report" link="https://krtcotmo2.github.io/csharpexample/"/>
+        <Project showModal={showModal} stack="cSharpJs.png" tech="C#, HTML5, Bootstrap, Sql Server" img="ocdTile.png" title="Connectwise Capacity Charts" link="https://krtcotmo2.github.io/csharpexample/ocd.html"/>
+      </Carousel>
+      <img className="mernQuad hide-on-med-and-down" alt="MERN Stack" src="./images/mernQuads.png" />
+      <div className="tagLine">React</div>
+
+      
     </div>
   );
 }
